@@ -9,10 +9,7 @@
 5. [Programación funcional en R](#programación-funcional-en-r)
 6. [Aplicaciones de R en ciencia de datos](#aplicaciones-de-r-en-ciencia-de-datos)
 7. [Proyectos prácticos](#proyectos-prácticos)
-8. [Recursos adicionales](#recursos-adicionales)
-9. [Contribución](#contribución)
-10. [Licencia](#licencia)
-11. [Contacto](#contacto)
+8. [Contacto](#contacto)
 
 ## Introducción a R
 
@@ -73,6 +70,7 @@
 
 ## Contacto
 Daniel Román
+
 danielromc@gmail.com
 
 Este repositorio se crea con el objetivo de registrar mi ruta de aprendizaje
