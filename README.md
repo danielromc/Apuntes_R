@@ -11,9 +11,9 @@
 7. [Proyectos prácticos](#proyectos-prácticos)
 8. [Contacto](#contacto)
 
-## Introducción a R
+## [Introducción a R](apuntes_R/Introducción-a-R/wiki.md)
 
-- [¿Qué es R y por qué utilizarlo?](https://github.com/danielromc/apuntes_R/blob/main/Introducci%C3%B3n%20a%20R/wiki.md)
+- ¿Qué es R y por qué utilizarlo?
 - Instalación de R y RStudio.
 - Los fundamentos del lenguaje R.
 - Variables y tipos de datos en R.
@@ -73,4 +73,4 @@ Daniel Román
 
 danielromc@gmail.com
 
-Este repositorio se crea con el objetivo de registrar mi ruta de aprendizaje
+Este repositorio se crea con el objetivo de registrar mi ruta de aprendizaje y alimentar mi portafolio. No pretendo en ningún momento crear un curso profesional de R. El repositorio está a disposición de todo aquel que le interese y le pueda servir para su propio aprendizaje.
