@@ -16,4 +16,9 @@ Aquí tienes algunas razones por las cuales puedes considerar utilizar R:
 
 # Instalación de R y RStudio
 
-Tucolawey
+Para Instalar R, acceder al siguiente enlace: [Lenguaje R](https://cran.rstudio.com/)
+
+Para instalar RStudio, acceder al siguiente enlace: [RStudio IDE](https://posit.co/downloads/)
+
+# Los fundamentos del lenguaje R
+
