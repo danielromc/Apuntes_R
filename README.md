@@ -11,9 +11,9 @@
 7. [Proyectos prácticos](#proyectos-prácticos)
 8. [Contacto](#contacto)
 
-## [Introducción a R](apuntes_R/Introducción a R)
+## Introducción a R
 
-- ¿Qué es R y por qué utilizarlo?
+- [¿Qué es R y por qué utilizarlo?](https://github.com/danielromc/apuntes_R/blob/main/Introducci%C3%B3n%20a%20R/wiki.md)
 - Instalación de R y RStudio.
 - Los fundamentos del lenguaje R.
 - Variables y tipos de datos en R.
