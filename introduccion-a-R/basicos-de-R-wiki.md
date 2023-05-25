@@ -46,8 +46,8 @@ En R, los comentarios se utilizan para agregar anotaciones o explicaciones breve
 #Esta línea no debe ser ejecutada
 'Quiero aprender R'
 ```
+# Variables y tipos de datos en R
 ### Variables
-
 Las variables, al igual que en otros lenguajes de programación, son contenedores o espacios de memoria que almacenan valores. En R, las variables se crean en el momento que se les asigna un valor. Para ello, se emplea el signo `<-` . Para saber qué hay en una variable, simplemente se escribe el nombre de la variable
 ```r
 nombre <- "Daniel"
@@ -65,3 +65,37 @@ Al igual que en otros lenguajes de programación, para nombrar variables en R ex
 1. El nombre de una variable debe empezar con una letra y puede cotener números, letras y los caracteres especiales punto (.) y guion bajo(\_). 
 2. El nombre de una variable no puede empezar por número ni guion bajo. Si el nombre de la variable empieza con punto, no le puede suceder un número.
 3. Las palabras reservadas no se pueden usar como nombres de variable.
+
+Ejemplos de nombres válidos
+```r
+cliente
+id_producto
+nueva.variable
+var_1
+.peso
+```
+Aunque iniciar las variables con punto no se aconseja. Lo mejor siempre será usar el método *snake_case* o el método *CamelCase* para nombrar variables que contengan más de una palabra.
+
+Ejemplos de nombres no válidos
+```
+mi-variable         #Usa guion como separador
+nombre&apellido     #Usa caracteres no admitidos
+_edad               #Inicia con guion bajo
+.2peso              #Inicia con punto seguido de número
+for                 #Utiliza un nombre reservado
+```
+Las palabras reservadas en R son las siguientes:
+`if`, `else`, `repeat`, `while`, `function`, `for`, `in`, `next`, `break`, `TRUE`, `FALSE`, `NULL`, `Inf`, `NaN`, `NA`, `NA_integer_`, `NA_real_`, `NA_complex_`, `NA_character_` y `…`
+
+R es case-sensitive, es decir, que diferencia las mayúsculas de minúsculas. Por lo que las variables Mi_edad y mi_edad son diferentes.
+
+### Tipos de datos
+
+Al igual que en la mayoría de lenguajes de programación, las variables almacenan diferentes tipos de datos. En R existen los siguientes tipos de datos:
+
+|`numeric`    |Todos los números reales con o sin valores decimales. Por ejemplo: `3`, `8.69` o `100`.|
+|:-           |:-|
+|`integer`    |Números enteros. En este caso se usa el sufijo L para especificar el tipo de dato. Por ejemplo: `170L`, `2L` o `200L`.|
+|`complex`    |Los números compuestos por una parte real y una imaginaria. Se usa el sufijo i para especificar la parte imaginaria. Por ejemplo: `3+2i`, `5+i` o `2-5i`.|
+|`character`  |Valores alfabéticos, lo que en otros lenguajes se conoce como cadenas o strings. Se usan las comillas simples o dobles para representar cadenas de texto. Por ejemplo: `“lunes”`, `“enero”` o `'univerdidad'`.|
+|`logical`    |También conocido como valores booleanos. Toman solo dos valores, `TRUE` o `FALSE`. Para verificar el tipo de dato de una variable se usa la función `class()`.|
