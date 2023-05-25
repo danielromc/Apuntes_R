@@ -11,7 +11,7 @@
 7. [Proyectos prácticos](#proyectos-prácticos)
 8. [Contacto](#contacto)
 
-## [Introducción a R](apuntes_R/introduccion-a-R/wiki.md)
+## [Introducción a R](introduccion-a-R/wiki.md)
 
 - ¿Qué es R y por qué utilizarlo?
 - Instalación de R y RStudio.
