@@ -100,7 +100,9 @@ Al igual que en la mayoría de lenguajes de programación, las variables almacen
 |`character`  |Valores alfabéticos, lo que en otros lenguajes se conoce como cadenas o strings. Se usan las comillas simples o dobles para representar cadenas de texto. Por ejemplo: `“lunes”`, `“enero”` o `'univerdidad'`.|
 |`logical`    |También conocido como valores booleanos. Toman solo dos valores, `TRUE` o `FALSE`. Para verificar el tipo de dato de una variable se usa la función `class()`.|
 
-### Operadores
+# Operaciones y funciones básicas en R
+
+### Operaciones
 Los operadores en R se dividen en varias categorías:
 
 | Operación aritmético   | Operador | Operación de comparación| Operador |
@@ -131,3 +133,30 @@ Y algunos operadores especiales:
 | Producto de matrices                                     | `%*%`    |
 | Secuencia de números enteros                             | `:`      |
 | Combina elementos en un vector                           | `c()`    |
+
+### Funciones básicas
+
+R incorpora una gran cantidad de funciones matemáticas que se aplican sobre un número.
+
+| Función     | Descripción                                      |
+|-------------|--------------------------------------------------|
+| `sqrt()`    | Calcula la raíz cuadrada de un número            |
+| `abs()`     | Devuelve el valor absoluto de un número          |
+| `log()`     | Devuelve el logaritmo de un número               |
+| `sin()`     | Devuelve el seno de un número                    |
+| `cos()`     | Devuelve el coseno de un número                  |
+| `round()`   | Redondea un número al entero más cercano         |
+| `ceiling()` | Redondea un número al entero mayor más cercano   |
+| `floor()`   | Redondea un número al entero menor más cercano   |
+
+Y otras que se aplican sobre un vector o lista.
+
+| Función     | Descripción                                                  |
+|-------------|--------------------------------------------------------------|
+| `length()`  | Devuelve la longitud de un vector o lista                    |
+| `sum()`     | Calcula la suma de todos los elementos de un vector          |
+| `mean()`    | Calcula la media de un vector numérico                       |
+| `max()`     | Devuelve el valor máximo de un vector                        |
+| `min()`     | Devuelve el valor mínimo de un vector                        |
+| `sd()`      | Calcula la desviación estándar de un vector numérico         |
+| `var()`     | Calcula la varianza de un vector numérico                    |
