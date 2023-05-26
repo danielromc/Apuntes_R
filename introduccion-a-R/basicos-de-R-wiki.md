@@ -87,7 +87,7 @@ for                 #Utiliza un nombre reservado
 Las palabras reservadas en R son las siguientes:
 `if`, `else`, `repeat`, `while`, `function`, `for`, `in`, `next`, `break`, `TRUE`, `FALSE`, `NULL`, `Inf`, `NaN`, `NA`, `NA_integer_`, `NA_real_`, `NA_complex_`, `NA_character_` y `…`
 
-R es case-sensitive, es decir, que diferencia las mayúsculas de minúsculas. Por lo que las variables Mi_edad y mi_edad son diferentes.
+R es case-sensitive, es decir, que diferencia las mayúsculas de las minúsculas. Por lo que las variables Mi_edad y mi_edad son diferentes.
 
 ### Tipos de datos
 
