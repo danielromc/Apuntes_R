@@ -149,7 +149,7 @@ R incorpora una gran cantidad de funciones matemáticas que se aplican sobre un 
 | `ceiling()` | Redondea un número al entero mayor más cercano   |
 | `floor()`   | Redondea un número al entero menor más cercano   |
 
-Y otras que se aplican sobre un vector o lista.
+Y otras que se aplican sobre un vector.
 
 | Función     | Descripción                                                  |
 |-------------|--------------------------------------------------------------|
