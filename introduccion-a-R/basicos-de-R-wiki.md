@@ -99,3 +99,35 @@ Al igual que en la mayoría de lenguajes de programación, las variables almacen
 |`complex`    |Los números compuestos por una parte real y una imaginaria. Se usa el sufijo i para especificar la parte imaginaria. Por ejemplo: `3+2i`, `5+i` o `2-5i`.|
 |`character`  |Valores alfabéticos, lo que en otros lenguajes se conoce como cadenas o strings. Se usan las comillas simples o dobles para representar cadenas de texto. Por ejemplo: `“lunes”`, `“enero”` o `'univerdidad'`.|
 |`logical`    |También conocido como valores booleanos. Toman solo dos valores, `TRUE` o `FALSE`. Para verificar el tipo de dato de una variable se usa la función `class()`.|
+
+### Operadores
+Los operadores en R se dividen en varias categorías:
+
+| Operación aritmético   | Operador | Operación de comparación| Operador |
+|------------------------|----------|------------------------ |----------|
+| Suma                   | `+`      | Igual a                 | `==`     |
+| Resta                  | `-`      | No igual a              | `!=`     |
+| Multiplicación         | `*`      | Menor que               | `<`      |
+| División               | `/`      | Mayor que               | `>`      |
+| Exponenciación         | `^`      | Menor o igual que       | `<=`     |
+| Módulo                 | `%`      | Mayor o igual que       | `>=`     |
+| División entera        | `%/%`    |                         |          |
+
+<br>
+
+| Operación lógica                  | Operador | Operación de asignación   | Operador |
+|-----------------------------------|----------|-------------------------- |----------|
+| Negación lógica                   | `!`      | Asignación a la izquierda | `<-`     |
+| Operador AND lógico               | `&`      | Asignación a la derecha   | `->`     |
+| Operador OR lógico                | `\|`     | Asignación                | `=`      |
+| Operador AND lógico (vectorizado) | `&&`     |                           |          |
+| Operador OR lógico (vectorizado)  | `\|\|`   |                           |          |
+
+Y algunos operadores especiales:
+
+| Operación especial                                       | Operador |
+|----------------------------------------------------------|----------|
+| Devuelve `TRUE` si un elemento está dentro de un vector  | `%in%`   |
+| Producto de matrices                                     | `%*%`    |
+| Secuencia de números enteros                             | `:`      |
+| Combina elementos en un vector                           | `c()`    |
