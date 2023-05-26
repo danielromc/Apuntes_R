@@ -13,8 +13,7 @@ if (substr(tolower(name),1,1) == "r"){
 } else {print(paste(name,"no toca el piano"))
   }
 
-#la función tolower() transforma a minúscula el texto introducido,
-# de esta forma no hay diferencia entre R y r
+#la función tolower() transforma a minúscula el texto introducido, # de esta forma no hay diferencia entre R y r
 
 #substr() accede a la primera letra del nombre
 
