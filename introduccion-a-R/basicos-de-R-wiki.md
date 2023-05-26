@@ -2,7 +2,7 @@
 
 R es un lenguaje de programación de código abierto y un entorno de software diseñado específicamente para el análisis estadístico y la manipulación de datos. Fue creado por Ross Ihaka y Robert Gentleman en los años 90 y desde entonces ha ganado popularidad en la comunidad estadística y de ciencia de datos.
 
-Aquí tienes algunas razones por las cuales puedes considerar utilizar R:
+Algunas razones por las cuales es recomendable utilizar R:
 
 **Análisis estadístico y modelado:** R es ampliamente utilizado en la comunidad estadística debido a su amplia gama de funciones y paquetes estadísticos. Ofrece una variedad de técnicas estadísticas, desde pruebas de hipótesis básicas hasta análisis de regresión, series de tiempo, modelos jerárquicos y mucho más.
 
