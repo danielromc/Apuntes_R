@@ -12,3 +12,13 @@ area = (base*altura)/2
 
 #Se imprime el mensaje completo
 paste("El área del triángulo es:", area)
+
+
+#Ahora abordando el problema desde el uso de funciones, se obtiene
+#una solución más corta
+
+#Se declara una función con dos valores de entrada: base y altura
+area_triangulo <- function(a,b)
+  return((x*y)/2)
+
+print("Utilice la función area_triangulo(x,y) donde a es altura y b base")
