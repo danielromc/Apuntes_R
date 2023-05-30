@@ -180,3 +180,15 @@ if(condition){
 }
 ```
 Note que, en cada bloque anterior, en la línea siguiente a un `if` o `else` hay un espacio. Esto se llama indentación y es fundamental para que el código se ejecute correctamente.
+
+En el caso en que sea necesario probar varias condiciones se usa el condicional `if-else if-else`
+```r
+if(condition){
+  #Codigo a ejecutar cuando condition es TRUE
+} else if(condition2){
+  #Codigo a ejecutar cuando contidion2 es TRUE
+} else {
+  #Codigo a ejecutar cuando ninguna de las condiciones anteriores se cumple
+}
+```
+Tener en cuenta que, R evaluará las condiciones en orden. Es decir, para que se ejecute el código del segundo if es porque la primera condición es falsa.
