@@ -160,3 +160,23 @@ Y otras que se aplican sobre un vector.
 | `min()`     | Devuelve el valor mínimo de un vector                        |
 | `sd()`      | Calcula la desviación estándar de un vector numérico         |
 | `var()`     | Calcula la varianza de un vector numérico                    |
+
+
+# Condicionales, bucles y funciones
+
+### Condicionales
+Los condicionales son estructuras de control que funcionan con expresiones booleanas y permiten ejecutar un bloque de código siempre y cuando se cumpla una condición. En R, el condiconal más común es el `if`. La sintaxis básica de un `if-statement` es:
+```r
+if (condition){
+  #Codigo a ejecutar cuando condition es TRUE
+} 
+```
+Ahora, si se quiere ejecutar un código en el caso que la condición sea falsa se utiliza un `if-else statement`.
+```r
+if(condition){
+  #Codigo a ejecutar cuando condition es TRUE
+} else {
+  #Codigo a ejecutar cuando condition es FALSE
+}
+```
+Note que, en cada bloque anterior, en la línea siguiente a un `if` o `else` hay un espacio. Esto se llama indentación y es fundamental para que el código se ejecute correctamente.
