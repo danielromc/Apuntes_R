@@ -18,6 +18,8 @@
 - Los fundamentos del lenguaje R.
 - Variables y tipos de datos en R.
 - Operaciones y funciones básicas en R.
+- Bucles
+- Funciones
 
 ## Manipulación de datos en R
 
