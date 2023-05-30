@@ -191,4 +191,4 @@ if(condition){
   #Codigo a ejecutar cuando ninguna de las condiciones anteriores se cumple
 }
 ```
-Tener en cuenta que, R evaluará las condiciones en orden. Es decir, para que se ejecute el código del segundo if es porque la primera condición es falsa.
+Tener en cuenta que, R evaluará las condiciones en orden. Es decir, para que se ejecute el código del segundo `if` es porque la primera condición es falsa.
