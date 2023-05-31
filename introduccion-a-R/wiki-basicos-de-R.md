@@ -192,3 +192,19 @@ if(condition){
 }
 ```
 Tener en cuenta que, R evaluará las condiciones en orden. Es decir, para que se ejecute el código del segundo `if` es porque la primera condición es falsa.
+
+### Bucles
+
+Un bucle es una estructura de código que permite ejecutar una línea de código múltiples veces siempre que se cumpla una condición. En R hay dos bucles fundamentales: `while` y `for`.
+
+Con el bucle `while` se ejecuta un código indefinidamente siempre que se cumpla una condición. Por lo anterior, este bucle es de especial cuidado ya que si no se definen bien las condiciones, se puede caer en un bucle infinito.
+El bucle `while` tiene la sigueinte sintáxis
+
+```r
+while (condition){
+  #Codigo que se ejecuta cuando se cumple la condicion
+}
+```
+La condición inicial se ejecuta en cada iteración, siempre que arroje `TRUE` el bucle seguirá ejecutándose. Cuando la condición sea `FALSE` el bucle se dentendrá. Para que esto suceda es importante utilizar los controladores de flujo. Estos, son básicamente variables que van cambiando de valor en cada iteración, logrando que en un determinado ciclo del bucle la condición se haga `FALSE`.
+
+El bucle `for` permite ejecutar un código un número específico de veces.
