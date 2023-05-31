@@ -20,7 +20,7 @@
 - Operaciones y funciones básicas en R.
 - Condicionales, bucles y funciones.
 
-## [Manipulación de datos en R] (manipulacion-de-datos-en-R/wiki-manipulacion-de-datos-en-R.md)
+## [Manipulación de datos en R](manipulacion-de-datos-en-R/wiki-manipulacion-de-datos-en-R.md)
 
 - Estructuras de datos en R (vectores, matrices, listas, data frames).
 - Importación y exportación de datos.
