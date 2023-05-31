@@ -208,3 +208,9 @@ while (condition){
 La condición inicial se ejecuta en cada iteración, siempre que arroje `TRUE` el bucle seguirá ejecutándose. Cuando la condición sea `FALSE` el bucle se dentendrá. Para que esto suceda es importante utilizar los controladores de flujo. Estos, son básicamente variables que van cambiando de valor en cada iteración, logrando que en un determinado ciclo del bucle la condición se haga `FALSE`.
 
 El bucle `for` permite ejecutar un código un número específico de veces.
+
+```r
+for (variable in secuencia){
+  #Codigo a ejecutar en cada repeticion
+}
+```
