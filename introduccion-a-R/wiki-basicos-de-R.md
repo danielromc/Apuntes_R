@@ -214,4 +214,4 @@ for (variable in secuencia){
   #Codigo a ejecutar en cada repeticion
 }
 ```
-skladlaskdkklasd
+
